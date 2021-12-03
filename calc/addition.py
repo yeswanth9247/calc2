@@ -1,9 +1,9 @@
-"""This is addition operation object"""
-
 from calc.calculation import Calculation
 
+
 class Addition(Calculation):
-    """This is addition class"""
+    """The addition class has one method to get the result of the the calculation A and B come from
+    the calculation parent class"""
+
     def get_result(self):
-        """This is addition class"""
-        return self.value_a + self.value_b
+        return sum(v for v in self.values)

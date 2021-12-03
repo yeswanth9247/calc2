@@ -1,9 +1,12 @@
-"""This is multiplication operation object"""
-
 from calc.calculation import Calculation
 
+
 class Multiplication(Calculation):
-    """This is multiplication class"""
+    """The multiplication class has one method to get the result of the the calculation A and B come from
+    the calculation parent class"""
+
     def get_result(self):
-        """This is multiplication class"""
-        return self.value_a * self.value_b
+        output = 1.0
+        for value in self.values:
+            output *= value
+        return output
