@@ -1,5 +1,4 @@
 # Calculator Project Setup
-[![Build Status](https://app.travis-ci.com/yeswanth9247/calc2.svg?branch=csv1)](https://app.travis-ci.com/yeswanth9247/calc2)
 
 Run Pip Install
 pip install -r requirements.txt
