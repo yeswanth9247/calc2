@@ -7,7 +7,6 @@ install:
 script:
   - pytest  --pylint --cov
 
-.
 branches:
   only:
     - main
