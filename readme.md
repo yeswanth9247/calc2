@@ -12,3 +12,6 @@ pytest  --pylint --cov
 setup.py is a config file for pytest
 
 ![csv1.JPG](csv1.JPG)
+![csv2.JPG](csv2.JPG)
+![csv3.JPG](csv3.JPG)
+![csv4.JPG](csv4.JPG)
